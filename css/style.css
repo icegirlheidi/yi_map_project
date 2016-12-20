@@ -1,0 +1,98 @@
+html {
+	height: 100% 
+	}
+body { 
+  	height: 100%; 
+  	margin: 0; 
+  	padding: 0; 
+  	font-family:'Source Sans Pro'; 
+  	color: #252122;
+}
+#header {
+	width: 100%; 
+	height:10%;  
+	letter-spacing: -0.035em; 
+	font-weight: 900; 
+	color: #252122; 
+	font-size: 1.5em; 
+	border-bottom: 1px solid #dedede
+}
+.text{
+	display: inline-block; 
+	float: left; 
+	margin-right: 2%; 
+	padding: 1% 1%; 
+	font-size: 1.4em; 
+	font-weight: 500;
+}
+#map_canvas { 
+	height: 98%; 
+	width: 67%; 
+	display: inline-block; 
+	float: left; 
+	margin-right: 1%;
+}
+#header h1 {
+	background:white; 
+	text-align:center;
+}
+#searchHolder {
+	margin: 2% 20%; 
+	padding: 0 5%; 
+	height: 8%;
+}
+#searchHolder select{
+	font-size: 1.4em; 
+	font-weight: 500; 
+	padding: 1% 1%; 
+	margin-right: 2%; 
+	border: 1px solid #DDDBDB; 
+	border-radius: 5px; 
+	background: #DBDBDB; 
+	display: inline-block; 
+	float: left;
+}
+#mapHolder{
+	height: 65%; 
+	width: 100%; 
+	padding: 1% 2%;
+}
+#choiceList{
+	display: inline-block; 
+	height: 92%; 
+	width: 23%; 
+	float: left; 
+	margin-left: 1%; 
+	background: #f4f4f4; 
+	font-size: 1.6em; 
+	font-weight: 500; 
+	padding: 1% 2%;
+}
+#searchButton{
+	color: #ffffff; 
+	font-weight: 700; 
+	font-size: 1.2em; 
+	border-radius: 5px; 
+	margin-left: 1%; 
+	padding: 0.5em 1.5em;
+	display: inline-block;
+	text-decoration: none;
+	cursor: pointer;
+	border: 0;
+	border-radius: 5px;
+	background: #e53359;
+	outline: 0;
+	-moz-transition: background-color .25s ease-in-out;
+	-webkit-transition: background-color .25s ease-in-out;
+	-o-transition: background-color .25s ease-in-out;
+	-ms-transition: background-color .25s ease-in-out;
+	transition: background-color .25s ease-in-out;}
+
+#footer{
+	height: 3%; 
+	background: #E5E5E5; 
+	margin: 2% 0; 
+	padding: 2% 2%; 
+	font-size: 1em; 
+	font-weight: 400;
+}

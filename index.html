@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" src="js/myScript.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+
+  <body>
+  	<div class="header" id="header">
+  		<h1>Locator</h1>
+  	</div>
+
+	<div class="searchHolder" id="searchHolder">
+		<div class="text">Select</div>
+			<select id='campus'>
+				<option value="Select">Select</option>
+				<option value="Leppavaara">Leppavaara</option>
+				<option value="Bulevardi">Bulevardi</option>
+			</select>
+		<div class="text">and</div>
+			<select id='place'>
+				<option value="Select">Select</option>
+				<option value="library">library</option>
+				<option value="restaurant">restaurant</option>
+				<option value="wc">wc</option>
+			</select>
+    	<button id="searchButton" onclick="changecenter()">click</button>
+	</div>
+
+	<div id="mapHolder">
+		<div id="map_canvas">
+			<!-- Gooogle map loads here -->
+		</div>
+		<div id="choiceList">
+			<p id="description"><br></p>
+		</div>
+	</div>
+
+	<div class="footer" id="footer">
+		Copyright © All rights reserved.
+	</div>
+
+  </body>
+</html>
